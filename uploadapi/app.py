@@ -33,7 +33,6 @@ def uploadFile():
         uploads_dir = os.path.join(os.getcwd(), 'fileUploadAPI', 'uploads')
         if not os.path.exists(uploads_dir):
             os.makedirs(uploads_dir, exist_ok=True)
-
         # Save file
         file.save(os.path.join(uploads_dir, file.filename))
         
