@@ -13,11 +13,11 @@ setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'run_fileUploadAPI=fileUploadAPI.app:main',
+            'run_UploadAPI=UploadAPI.app:main',
         ],
     },
     package_data={
-        'fileUploadAPI': ['templates/*.html', 'uploads/*'],
+        'UploadAPI': ['templates/*.html', 'uploads/*'],
     },
     author="Suhas",
     author_email="suhassahadevan02@gmail.com",
