@@ -19,7 +19,7 @@ setup(
     description="This API is used to accept file uploads from end users.",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="https://github.com/SuhasSahadev/Uploadapi.git"
+    url="https://github.com/SuhasSahadev/Uploadapi.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
