@@ -1,4 +1,9 @@
 from setuptools import setup, find_packages
+import os
+
+for dirpath, dirnames, filenames in os.walk('UploadAPI'):
+    for file_name in filenames:
+        print(os.path.join(dirpath, file_name))
 
 setup(
     name="Uploadapi",
