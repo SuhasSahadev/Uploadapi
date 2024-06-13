@@ -11,7 +11,7 @@ setup(
         ],
     },
     package_data={
-        '': ['templates/*.html', 'uploads/*'],
+        'Uploadapi': ['templates/*.html', 'uploads/*'],
     },
     author=" Suhas",
     author_email="suhassahadevan02@gmail.com",
